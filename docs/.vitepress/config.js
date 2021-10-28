@@ -1,10 +1,10 @@
 module.exports = {
   lang: 'ru-RU',
-  title: 'ILyaKlishin',
-  description: 'Сайт Клишина Ильи Николаевича для открытой информации и лушего Интернета html 5.0',
+  title: 'Speech Fitness',
+  description: 'Формирование Культуры Публичных Выступлений',
 
   themeConfig: {
-    repo: 'ink-kin/vitepress-starter',
+    repo: 'ink-kin/speech.fitness',
     docsDir: 'docs',
 
     editLinks: true,
@@ -23,11 +23,8 @@ module.exports = {
     //},
 
     nav: [
-      { text: 'THINK EXAMINING', link: '/', activeMatch: '^/$|^/guide/' },
-      {
-        text: 'Продвижение Интеллектуальной собственности',
-        link: '/pip/'
-      }
+      { text: 'Манифест', link: '/', activeMatch: '^/$|^/guide/' },
+      { text: 'Конвенция', link: '/pip/' }
     ],
 
     sidebar: {
@@ -41,17 +38,14 @@ module.exports = {
 function getGuideSidebar() {
   return [
     {
-      text: 'Введение', link: '/blog/2020-11-11-introdiction',
+      text: 'Введение', link: '/',
       children: [
-        { text: 'Зачем я публикую всё это здесь?', link: '/' },
-        { text: 'Что Я ищу?', link: '/blog/about' },
-        { text: 'Что Я пишу?', link: '/blog/about_my_edi' },
-        { text: 'Что предлагаю', link: '/configuration' },
-        { text: 'Вместо резюме', link: 'todone' }
+        { text: 'Конвенция', link: '/' },
+        { text: 'Манифест', link: '/manifesto' }
       ]
     },
     {
-      text: 'Продвижение Интеллектуальной собственности',
+      text: 'Культура Публичных Выступлений',
       children: [
         { text: 'Маркетинг/Реклама', link: '/pip/marketing' },
         { text: 'Продажи', link: '/sales/' },

@@ -47,12 +47,10 @@ function getGuideSidebar() {
     {
       text: 'Культура Публичных Выступлений',
       children: [
-        { text: 'Маркетинг/Реклама', link: '/pip/marketing' },
-        { text: 'Продажи', link: '/sales/' },
-        { text: 'Кадры/Таланты', link: '/people/' },
-        { text: 'Бух. и Финансы', link: '/buh/' },
-        { text: 'Закон', link: '/law/' },
-        { text: 'Инноваци', link: '/innovate/' }
+        { text: 'Фитнес Речи', link: '/pip/marketing' },
+        { text: 'Фитнес Слова', link: '/word/' },
+        { text: 'Фитнес Подачи', link: '/people/' },
+        { text: 'Физиология', link: '/buh/' }
       ]
     },
     {
@@ -134,8 +132,7 @@ function getGuideSidebar() {
       text: 'Книги',
       children: [
         { text: 'Книги', link: '/books/marketing' },
-{ text: 'Проектирование на UML', link: '/books/uml' },
-{ text: 'Маркетинг от А до Я: 80 концепций', link: '/blog/kotler_f_marketing_ot_a_do_ya_80_k' },
+{ text: 'Переговоры с монстрами', link: '/books/rysov' },
 { text: 'Психодиагностика', link: '/blog/22857009' },
 { text: 'Удержать клиентов', link: '/blog/7459819' },
 { text: 'Фиолетовая корова', link: '/blog/6158845' },
